@@ -5,12 +5,32 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
-        <title>My first website</title>
+        <title>My first website is a survey</title>
     </head>
     <body>
-        <h1>My first website</h1>
-        <div>
+        <h1 id="title">This is a survey!</h1>
+        <p id="description">My first website is a survey as a test :D</p>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name_label" for="name">Name<input id="name" type="text" placeholder="Enter your name" required></label>
+                <label id="email_label" for="email">Email<input id="email" type="email" placeholder="Enter your email" required></label>
+                <label id="age_label" for="age">Age 
+                    <p class="instruction">(optional)</p>
+                    <input id="age" type="number" max="120" min="13" placeholder="Enter your age (years)">
+                </label>
+                <label id="dropdown_label" for="dropdown">What's your main ocupation?
+                    <select id="dropdown" required>
+                        <option value="" disabled selected>Select your current ocupation</option>
+                        <option value="1">Student</option>
+                        <option value="2">Self learner</option>
+                        <option value="3">Developer</option>
+                        <option value="4">Other</option>
+                        <option value="0">Prefer not to say</option>
+                    </select>
+                </label>
+            </fieldset>
 
-        </div>
+            <input type="submit" value="Submit" id="submit">
+        </form>
     </body>
 </html>
