@@ -29,7 +29,18 @@
                     </select>
                 </label>
             </fieldset>
-
+            <fieldset>
+                <p class="question">What's your current experience level as a developer?</p>
+                <label id="exp_new_label" for="exp_new"><input type="radio" name="experience" id="exp_new" value="new" required> New/Trainee</label>
+                <label id="exp_junior_label" for="exp_junior"><input type="radio" name="experience" id="exp_junior" value="junior"> Junior</label>
+                <label id="exp_mid_label" for="exp_mid"><input type="radio" name="experience" id="exp_mid" value="mid"> Mid</label>
+                <label id="exp_senior_label" for="exp_senior"><input type="radio" name="experience" id="exp_senior" value="senior"> Senior</label>
+                <label id="exp_noapply_label" for="exp_noapply"><input type="radio" name="experience" id="exp_noapply" value=""> Doesn't apply</label>
+                <p class="question">What kind of project are you interested in?</p>
+                
+                <p class="question">Would you like sharing a little about your story as a developer?</p>
+                <textarea placeholder="Tell us your story..."></textarea>
+            </fieldset>
             <input type="submit" value="Submit" id="submit">
         </form>
     </body>

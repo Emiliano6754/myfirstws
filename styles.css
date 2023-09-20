@@ -30,6 +30,16 @@ input, select, textarea {
     width: 100%;
 }
 
+input[type="radio"] {
+    width: unset;
+    display: inline;
+}
+
+label {
+    display: block;
+    margin: 0 auto;
+}
+
 input[type="submit"] {
     display: block;
     min-width: 300px;
