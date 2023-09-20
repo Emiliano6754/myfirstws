@@ -12,13 +12,13 @@
         <p id="description">My first website is a survey as a test :D</p>
         <form id="survey-form">
             <fieldset>
-                <label id="name_label" for="name">Name<input id="name" type="text" placeholder="Enter your name" required></label>
-                <label id="email_label" for="email">Email<input id="email" type="email" placeholder="Enter your email" required></label>
-                <label id="age_label" for="age">Age 
+                <label id="name-label" for="name">Name<input id="name" type="text" placeholder="Enter your name" required></label>
+                <label id="email-label" for="email">Email<input id="email" type="email" placeholder="Enter your email" required></label>
+                <label id="number-label" for="number">Age 
                     <p class="instruction">(optional)</p>
-                    <input id="age" type="number" max="120" min="13" placeholder="Enter your age (years)">
+                    <input id="number" type="number" max="120" min="13" placeholder="Enter your age (years)">
                 </label>
-                <label id="dropdown_label" for="dropdown">What's your main ocupation?
+                <label id="dropdown-label" for="dropdown">What's your main ocupation?
                     <select id="dropdown" required>
                         <option value="" disabled selected>Select your current ocupation</option>
                         <option value="1">Student</option>
@@ -31,13 +31,16 @@
             </fieldset>
             <fieldset>
                 <p class="question">What's your current experience level as a developer?</p>
-                <label id="exp_new_label" for="exp_new"><input type="radio" name="experience" id="exp_new" value="new" required> New/Trainee</label>
-                <label id="exp_junior_label" for="exp_junior"><input type="radio" name="experience" id="exp_junior" value="junior"> Junior</label>
-                <label id="exp_mid_label" for="exp_mid"><input type="radio" name="experience" id="exp_mid" value="mid"> Mid</label>
-                <label id="exp_senior_label" for="exp_senior"><input type="radio" name="experience" id="exp_senior" value="senior"> Senior</label>
-                <label id="exp_noapply_label" for="exp_noapply"><input type="radio" name="experience" id="exp_noapply" value=""> Doesn't apply</label>
-                <p class="question">What kind of project are you interested in?</p>
-                
+                <label id="exp-new-label" for="exp-new"><input type="radio" name="experience" id="exp-new" value="new" required> New/Trainee</label>
+                <label id="exp-junior-label" for="exp-junior"><input type="radio" name="experience" id="exp-junior" value="junior"> Junior</label>
+                <label id="exp-mid-label" for="exp-mid"><input type="radio" name="experience" id="exp-mid" value="mid"> Mid</label>
+                <label id="exp-senior-label" for="exp-senior"><input type="radio" name="experience" id="exp-senior" value="senior"> Senior</label>
+                <label id="exp-noapply-label" for="exp-noapply"><input type="radio" name="experience" id="exp-noapply" value="non"> Doesn't apply</label>
+                <p class="question">What area of development are you interested in?</p>
+                <label id="front-end-label" for="front-end"><input type="checkbox" name="projects" id="front-end" value="front-end"> Front-End</label>
+                <label id="back-end-label" for="back-end"><input type="checkbox" name="projects" id="back-end" value="back-end"> Back-End</label>
+                <label id="graphics-label" for="graphics"><input type="checkbox" name="projects" id="graphics" value="graphics"> Graphics</label>
+                <label id="data-label" for="data"><input type="checkbox" name="projects" id="data" value="data"> Data Science</label>
                 <p class="question">Would you like sharing a little about your story as a developer?</p>
                 <textarea placeholder="Tell us your story..."></textarea>
             </fieldset>

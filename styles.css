@@ -30,7 +30,7 @@ input, select, textarea {
     width: 100%;
 }
 
-input[type="radio"] {
+input[type="radio"], input[type="checkbox"] {
     width: unset;
     display: inline;
 }
