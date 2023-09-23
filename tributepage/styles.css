@@ -1,0 +1,21 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Cambria;
+    font-size: 18px;
+    background-color: rgb(189, 189, 189);
+}
+
+h1, p {
+    text-align: center;
+}
+
+figure {
+    background-color: white;
+}
+
+image {
+    width: 500px;
+    max-width: 100%;
+}
