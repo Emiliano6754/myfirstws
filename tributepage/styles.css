@@ -49,3 +49,22 @@ img {
 .year::after {
     content: " - ";
 }
+
+footer {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 800;
+}
+
+#wiki-entry:link {
+    color: rgb(0, 69, 189);
+}
+
+#wiki-entry:visited {
+    color: rgb(0, 69, 189);
+}
+
+#wiki-entry:hover {
+    cursor: pointer;
+    color: rgb(14, 97, 241);
+}
