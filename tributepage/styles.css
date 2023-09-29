@@ -37,8 +37,20 @@ figcaption {
 }
 
 img {
+    margin: 10px auto;
     width: 900px;
     max-width: 100%;
+}
+
+ul {
+    width: 900px;
+    margin: 0 auto;
+}
+
+li {
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
 }
 
 #figure-region {
@@ -46,8 +58,13 @@ img {
     margin: 0 auto;
 }
 
+.year {
+    font-weight: 800;
+}
+
 .year::after {
     content: " - ";
+    font-weight: normal;
 }
 
 footer {
